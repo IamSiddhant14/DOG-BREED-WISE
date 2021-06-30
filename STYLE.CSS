@@ -1,0 +1,56 @@
+.upper{
+
+    height:300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to left, #6666ff 0%, #ff99cc 100%);
+
+
+}
+
+#dp1{
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size:large;
+
+}
+
+#dp2{
+
+    visibility: hidden;
+    height: 40px;
+    width: 300px;
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    font-size: large;
+
+}
+
+#btn{
+    width: 150px;
+    height: 50px;
+    background-color: beige;
+
+}
+
+
+#lower{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+#lower>img{
+    height:500px;
+    width: 500px;
+    margin-top: 2em;
+
+}
